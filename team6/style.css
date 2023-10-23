@@ -1,0 +1,117 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+
+  .d-flex {
+  width: 100%;
+  height: 35px;
+  background: #3EA384;
+  padding: 50px;
+}
+
+.form-control {
+  width: 20%;
+  height: 35px;
+
+}
+
+.btn {
+  width: 8%;
+  height: 35px;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn1{
+  position: absolute;
+  bottom: -17%;
+  right: 0;
+}
+
+.btns {
+width: 100px;
+
+}
+
+  .footer-ribbon {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+
+  .footer-section {
+    flex: 1 0 200px;
+    margin: 5px;
+  }
+
+  .footer-section h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+  }
+
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px;
+  }
+
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+
+  .footer-section a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .footer-section p {
+    margin: 0;
+  }
+
+
+
+#md {
+    text-align: center;
+}
+ul#adminmenu{
+    background-color: #3EA384;
+    width: 100%;
+height: 20px;
+
+padding: 50px;
+}
+li {
+    display: inline;
+}
+li a{
+color:rgb(245, 241, 241);
+text-decoration: none;
+padding: 10px 10px 10px 10px;   
+}
+
+li a:hover{
+background-color: #115038;
+border-radius: 7px;
+}
+li a.active {
+background-color: #115038;
+border-radius: 7px;
+}
